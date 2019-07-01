@@ -27,7 +27,7 @@ public class N11TestAutomation {
 	public void n11Test() throws InterruptedException {
 
 		Logger logger = Logger.getLogger("N11TestAutomation"); //Logger Object
-		PropertyConfigurator.configure("./SeleniumTest/Log4j.properties");	  //Logger Configuration File
+		PropertyConfigurator.configure("./Log4j.properties");	  //Logger Configuration File
 		/*
 		 * This test is written in a macboook. If you are trying it on a 
 		 * Windows PC, it should work without a problem since 2 different versions of 
@@ -35,10 +35,10 @@ public class N11TestAutomation {
 		 */
 		String os = System.getProperty("os.name").toLowerCase();	
 		if (os.contains("win")) {
-			System.setProperty("webdriver.chrome.driver", "./SeleniumTest/lib/chromedriver_win.exe"); 
+			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver_win.exe"); 
 
 		} else if (os.contains("mac")) {
-			System.setProperty("webdriver.chrome.driver", "./SeleniumTest/lib/chromedriver_macos"); 
+			System.setProperty("webdriver.chrome.driver", "./lib/chromedriver_macos"); 
 
 		}
 		WebDriver driver = new ChromeDriver(); // Initialize Chrome Driver
