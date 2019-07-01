@@ -70,12 +70,12 @@ public class N11TestAutomation {
 	}
 
 	private void logout(WebDriver driver, Logger logger) throws InterruptedException {
-		WebElement hesabım1 = driver
+		WebElement hesabim1 = driver
 				.findElement(By.xpath("//*[@id=\'header\']/div/div/div[2]/div[2]/div[2]/div[1]/a[1]"));
 		WebElement logout1 = driver
 				.findElement(By.xpath("//*[@id=\'header\']/div/div/div[2]/div[2]/div[2]/div[2]/div/a[8]"));
 		Actions builder = new Actions(driver);
-		builder.moveToElement(hesabım1).build().perform();
+		builder.moveToElement(hesabim1).build().perform();
 		logout1.click();
 		Thread.sleep(4000);
 		driver.close();
@@ -97,9 +97,9 @@ public class N11TestAutomation {
 		WebElement favourite = driver.findElement(By.xpath("//*[@id='p-355878477']/div[2]/span[2]"));
 		favourite.click();
 		js.executeScript("window.scrollTo(0, 0)");
-		WebElement hesabım = driver
+		WebElement hesabim = driver
 				.findElement(By.xpath("//*[@id=\'header\']/div/div/div[2]/div[2]/div[2]/div[1]/a[1]"));
-		hesabım.click();
+		hesabim.click();
 		Thread.sleep(500);
 		WebElement istek_listem = driver
 				.findElement(By.xpath("//*[@id=\'myAccount\']/div[1]/div[1]/div[2]/ul/li[5]/a"));
