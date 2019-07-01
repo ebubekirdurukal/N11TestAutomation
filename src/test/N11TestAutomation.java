@@ -107,7 +107,7 @@ public class N11TestAutomation {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("listItemTitle")));
 		WebElement favourites = driver.findElement(By.className("listItemTitle"));
 		favourites.click();
-		Thread.sleep(250);
+		Thread.sleep(500);
 		assertEquals(driver.getCurrentUrl(), "https://www.n11.com/hesabim/favorilerim");
 		logger.info("Favourites Page Verified");
 
