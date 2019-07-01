@@ -1,0 +1,16 @@
+2019-06-30 21:47:01,953 [main] INFO N11TestAutomation -  New test initialized
+2019-06-30 21:47:11,948 [main] INFO N11TestAutomation - URL Verified
+2019-06-30 21:47:19,051 [main] INFO N11TestAutomation - Login Verified
+2019-06-30 21:47:22,582 [main] INFO N11TestAutomation - Navigated to Iphone page. 20 iPhones found
+2019-06-30 21:47:25,592 [main] INFO N11TestAutomation - Verified Second Page
+2019-06-30 21:47:33,378 [main] INFO N11TestAutomation - Favourites Page Verified
+2019-06-30 21:47:34,069 [main] INFO N11TestAutomation - Erase Verified
+2019-06-30 21:47:41,239 [main] INFO N11TestAutomation - Browser closed
+2019-07-01 10:05:23,867 [main] INFO N11TestAutomation -  New test initialized
+2019-07-01 10:05:30,867 [main] INFO N11TestAutomation - URL Verified
+2019-07-01 10:05:36,435 [main] INFO N11TestAutomation - Login Verified
+2019-07-01 10:05:41,130 [main] INFO N11TestAutomation - Navigated to Iphone page. 16 iPhones found
+2019-07-01 10:05:44,863 [main] INFO N11TestAutomation - Verified Second Page
+2019-07-01 10:05:51,571 [main] INFO N11TestAutomation - Favourites Page Verified
+2019-07-01 10:05:52,307 [main] INFO N11TestAutomation - Erase Verified
+2019-07-01 10:05:59,995 [main] INFO N11TestAutomation - Browser closed
